@@ -1,0 +1,215 @@
+<!DOCTYPE html> 
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+    <title>facebook</title> 
+      <style type="text/css">
+         body{
+           margin: 0px;
+         }
+            .back{
+              background-color:#3F5C9A;
+              height: 100px;
+              width: 100%;
+              position:relative;
+          } 
+             .face{
+                color: white;
+                position: absolute;
+                 top: 15%;
+                 left:20%;
+           }
+             .table{
+                color: white;
+               position: absolute;
+               top: 15%;
+               right:100px;    
+            }
+              .container{
+                 background-color:#E2E5F0 ;
+                 width: 100%;
+                 height: 700px; 
+                 position: absolute;
+            }
+              .img{
+                width: 600px ;
+                height: 500px ;
+                position: relative ;
+                top: 100px  ;
+                left: 100px ;
+           }
+              .a{
+               position: absolute; top: 40px;
+               left: 150px;
+               font-size: 25px;
+           }
+             .form{
+                  position: absolute;
+                  float:right ;
+                  top: 10%;
+                  left: 800px;
+             }
+             .Birth{
+                  position: absolute;
+                  top:340px;
+                  right: 400px;
+             }
+             .gender{
+                 font-size: 15px;
+             }
+          </style>
+     </head>
+ <body>
+     <div class="back">
+        <div class="face">  
+            <h1>facebook</h1>
+        </div>
+        <div class="table"> 
+            <table>
+          <tr>  
+             <td><label>Email</label></td>
+             <td><label>Password</label></td>
+          </tr>
+              <tr>  
+                   <td>  
+                     <form><input type="text" pattern="/w{3,15}@gmail.com" name="">
+                     </form>
+                   </td>
+                  
+                   <td> 
+                     <form><input type="password" pattern="/w{5,10}"></form>
+                   </td>
+                  
+                  <td> 
+                     <button type="submit">login</button>
+                  </td> 
+               </tr>
+               <tr>
+                   <td></td>
+                   <td><a href="">Fogetten Password</a></td>
+               </tr>
+            </table>
+        </div>
+     </div>
+<div class="container"> 
+                           <img src="img.1.jpg" alt="" class="img" >
+              <div class="a" >Facebook help you to Connect and share with the<br> people in your Life.</div>            
+            <div class="form">
+             <h1>Create Account</h1>
+             <h2>It's free and always will be. </h2>
+             <form>
+               <table>
+                  <tr>
+                     <td>
+                        <input type="text" pattern="[A-Za-z] {5,15}" placeholder="first name" style="width: 200px; height:40px; border:5px; border-radius: 10px;">
+                        <input type="text" pattern="[A-Za-z] {5,15}" placeholder="sur name" style="width: 200px; height:40px; border:5px; border-radius: 10px;">  
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                     <input type="text" pattern="\d{11} || \w{3,15}@gmail.com" placeholder="Mobile Number Or Email Address" style="width: 400px; height:40px; border:25px; border-radius: 10px; padding: 5px;">
+                   </td>
+                  </tr>
+                  <tr>
+                     <td> 
+                        <input type="password" pattern="\w{3,10}" placeholder="password" style="width: 400px; height:40px; border:5px; border-radius: 10px; padding:5px ;">
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <label><h2>Birthday</h2></label>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td> 
+                        <select>
+                           <option>Day</option>
+                           <option>1</option>
+                           <option>2</option>
+                           <option>3</option>
+                           <option>4</option>
+                           <option>5</option>
+                           <option>6</option>
+                           <option>7</option>
+                           <option>8</option>
+                           <option>9</option>
+                           <option>10</option>
+                           <option>11</option>
+                           <option>12</option>
+                           <option>13</option>
+                           <option>14</option>
+                           <option>15</option>
+                           <option>16<option>
+                </select>
+                <select>
+                  <option>Month</option>
+                           <option>1</option>
+                           <option>2</option>
+                           <option>3</option>
+                           <option>4</option>
+                           <option>5</option>
+                           <option>6</option>
+                           <option>7</option>
+                           <option>8</option>
+                           <option>9</option>
+                           <option>10</option>
+                           <option>11</option>
+                           <option>12</option>
+                           <option>13</option>
+                           <option>14</option>
+                           <option>15</option>
+                           <option>16</option>
+                        </select>
+                        <select>
+                           <option>Years</option>
+                           <option>1999</option>
+                           <option>2000</option>
+                           <option>2001</option>
+                           <option>2002</option>
+                           <option>2003</option>
+                           <option>2004</option>
+                           <option>2005</option>
+                           <option>2006</option>
+                           <option>2007</option>
+                           <option>2008</option>
+                           <option>2009</option>
+                           <option>2010</option>
+                           <option>2011</option>
+                           <option>2011</option>
+                           <option>2012</option>
+                           <option>2013</option>
+                           <option>2014</option>
+                           <option>2015</option>
+                           <option>2016</option>
+                          </select>
+                     </td> 
+                     <td class="Birthday">
+                        <a href="">why i need to provide my <br>date of Birthday</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="gender">
+                        <input type="radio" name="gender" checked>Male
+                        <input type="radio" name="gender" >Female
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <p> By Clicking to sign up you agree to our <a href="">term and policy</a> and <br> <a href=""> cookie policy</a> you may recieve sms notification from us and <br> can opt out time </p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td> 
+                        <button type="submit" style="height:40px;" width:150px; background-color:#589147; color:white; border-radius:10=px > Sign up </button>
+                     </td>
+                  </tr> 
+                  <tr>
+                     <td>
+                        <p><a href="">Create a Page </a> for celebrity,band or business</p>
+                     </td>
+                  </tr>
+               </table>
+             </form>
+          </div>
+ </body>
+ </html
